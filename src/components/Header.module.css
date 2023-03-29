@@ -1,0 +1,51 @@
+.header {
+    background: var(--gray-700);
+    height: 20rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formTask {
+    width: 73.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    top: 17.3rem;
+}
+
+.inputTask {
+    display: flex;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 0.8rem;
+    width: 63.8rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 0.8rem;
+    color: var(--gray-100);
+    font-size: 1.6rem;
+}
+
+.inputTask::placeholder {
+    color: var(--gray-300);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.buttonTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
+    gap: 0.8rem;
+    background: var(--blue-dark);
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--gray-100);
+}

@@ -1,0 +1,49 @@
+.task {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;;
+    padding: 1.6rem;
+    gap: 1.2rem;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    background: var(--gray-500);
+    border: 0.1rem solid var(--gray-400);
+    box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.06);
+    border-radius: 0.8rem;
+}
+
+.task p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--gray-100);
+    margin-right: auto;
+}
+
+p.completed {
+   color: var(--gray-300);   
+   text-decoration: line-through;       
+}
+
+.trash {
+    background: none;
+    border: none;
+    color: var(--gray-300);   
+}
+
+.check {
+    min-width: 2rem;
+    height: 2rem;
+    background: none;
+    border: none;
+}
+
+.check div {
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+}
+
+button {
+    cursor: pointer;
+}
